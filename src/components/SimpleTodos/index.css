@@ -1,0 +1,41 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 85%;
+  max-width: 1200px;
+  min-width: 400px;
+  max-height: 85%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
